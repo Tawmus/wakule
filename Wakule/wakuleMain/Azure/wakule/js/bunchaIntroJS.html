@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<p><a href="http://wakule.westus.cloudapp.azure.com">Home</a></p>
+
+		<h2>Gimme Date and Time</h2>
+			<button type="button"
+	   		onclick="document.getElementById('demo').innerHTML = Date()">
+			Click me to display the Date and Time</button>
+		<p id="demo"></p>
+		
+		<h2>JavaScript can change HTML content</h2>
+		<p id='change'>This is gonna change after you click the button.</p>
+		<button type="button" onclick='document.getElementById("change").innerHTML = "See!  I changed!"'>Click Me!</button>
+
+		<h2>JavaScript can change HTML attributes</h2>
+		<p>In this case JavaScript changes the src attribute of an image</p>
+		<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+		<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+		<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+		<h2>JavaScript Can Change HTML Styles (CSS)</h2>
+		<p id="chgStyle">JavaScript can change the style of an HTML element.</p>
+		<button type="button" onclick="document.getElementById('chgStyle').style.fontSize='35px'">Change FontSize</button>
+		<button type="button" onclick="document.getElementById('chgStyle').style.fontSize='16px'">Restore FontSize</button>
+        
+        <h2>JavaScript Can Hide Elements</h2>
+        <!-- <p id="hideIt">JavaScript can hide (make stuff disappear).</p> -->
+        <button type="button" onclick="document.getElementById('hideIt').style.display='none'">Click me and disappear</button>
+        <button type="button" onclick="document.getElementById('hideIt').style.display='inherit'">Click me and appear</button>
+        <p id="hideIt">JavaScript can hide (make stuff disappear and reappear).</p>
+
+
+
+
+
+	</body>
+</html>

@@ -1,0 +1,87 @@
+.mainbgc {
+	background-color: #D5FAEA; /* light mint green */
+}
+.secondbgc {
+	background-color: #6EDCAD; /* darker mint green */
+}
+body {
+	background-color: #E8A2FA; /* pale magenta */
+}
+div {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #1A06F7; /* dark blue */
+    padding: 10px;
+}
+/* .genimage {
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+} */
+h1,h2 {
+	font-family: sans-serif;
+	color: #154360; /* dark bluish gray */
+}
+h1 {
+	border-bottom: 1px solid blue;
+	text-align: center
+}
+h2 {
+	text-decoration: underline;
+	text-align: center;
+}
+p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color: #F5EEF8; /* very light purple */
+	color: #5F00FF; /* dark purple */
+}
+.blueberry {
+	background-color: #4C35FA; /* almost the same dark purple */
+	color: #F8F1F3;	/* very light pink */
+}
+.cranberry {
+	background-color: #703242;
+	color: #F8F1F3;
+}
+.greentea {
+	background-color: #05A256;
+	color: #F8F1F3;
+}
+.raspberry {
+	background-color: #EE368C;
+	color: #F8F1F3;
+}
+/* em {
+	font-family: sans-serif;
+} */
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: #0B610B;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+/* a.imgLink {
+	display: block;
+} */
+
+.banner {
+  display: block;
+  /* -moz-box-sizing: border-box; */
+  /* box-sizing: border-box; */
+  width: 280px; /* Width of new image */
+  /* height: 236px; */ /* Height of new image */
+  /* padding-left: 10px; */ /* Equal to width of new image */
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+
+<div ng-app="">
+ 
+<p>Input something in the input box:</p>
+<p>String using ng-bind: <input type="text" ng-model="nameBind"></p>
+<h1 ng-bind="nameBind"></h1>
+
+<p>String with no ng-bind: <input type="text" ng-model="nameNoBind"></p>
+<p>{{nameNoBind}}</p>
+
+<p>Handle: <input type="text" ng-model="handle"></p>
+<h1>Hello {{handle}}</h1>
+
+<p>Math: <input type="number" ng-model="numb1"ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/" step="0.01"> <input type="number" ng-model="numb2" ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/" step="0.01"></p>
+<h1>{{ numb1 + numb2 }}</h1>
+
+</div>
+
+</body>
+</html>
